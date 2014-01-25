@@ -456,7 +456,12 @@ h1 span{
 	
 /* About section
 ---------------------------------------------------*/
-	
+
+.info{
+    font-size: 1em;
+    font-family: 'Ubuntu Condensed';
+}
+
 #about	ul{}
 
 #about ul li{
