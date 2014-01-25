@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Mate SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mate SC Regular'), local('MateSC-Regular'), url(https://themes.googleusercontent.com/static/fonts/matesc/v3/grxTPGLZGD5FSza5-lmr7A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://themes.googleusercontent.com/static/fonts/ubuntu/v5/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Condensed'), local('UbuntuCondensed-Regular'), url(https://themes.googleusercontent.com/static/fonts/ubuntucondensed/v4/DBCt-NXN57MTAFjitYxdrFzqCfRpIA3W6ypxnPISCPA.woff) format('woff');
+}
