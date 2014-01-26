@@ -611,7 +611,7 @@ h1 span{
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
 	#personaldata ul li .info,
 	#contact ul li {
-		background: url(/img/sprite@2x.png) no-repeat 0px 0px;
+		background: url(/img/grey_icons1.png) no-repeat 0px 0px;
 		background-size: 40px 290px;
 	}
 }
