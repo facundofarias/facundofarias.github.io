@@ -520,7 +520,7 @@ h1 span{
 ---------------------------------------------------*/
 
 #personaldata ul{margin:0;}
-#contact ul{margin:50px 0 20px 20px}
+/*#contact ul{margin:50px 0 20px 20px}*/
 
 #personaldata ul li .info,
 #contact ul li{
@@ -529,8 +529,8 @@ h1 span{
 	margin-bottom:10px;
 	font-size:14px;
 	
-	background: url(/img/sprite.png) no-repeat 0px 0px;
-	background-size: 40px 290px;
+	background: url(/img/grey_icons1.png) no-repeat 0px 0px;
+	background-size: 36px 576px;
 	
 	-webkit-transition: opacity .5s, margin .5s;
 	-moz-transition: opacity .5s, margin .5s;
@@ -539,13 +539,16 @@ h1 span{
 	transition: opacity .5s, margin .5s;	
 }
 
-#contact .twitter{background-position:0px 0px;}
-#contact .mail{background-position:0px -50px;}
-#contact .web{background-position:0px -100px;}
+#contact .twitter{background-position:10px -150px;}
+#contact .mail{background-position:10px -303px;}
+#contact .web{background-position:10px -189px;}
+#contact .skype{background-position:10px -112px;}
+#contact .linkedin{background-position:10px -74px;}
+#contact .cv{background-position:10px -266px;}
 
-#personaldata .date .info{background-position:0px -150px;}
-#personaldata .location .info{background-position:0px -200px;}
-#personaldata .phone .info{background-position:0px -250px;}
+#personaldata .date .info{background-position:10px -495px;}
+#personaldata .location .info{background-position:10px -227px;}
+#personaldata .phone .info{background-position:10px -342px;}
 
 /*#personaldata ul li .info:hover,*/
 #contact ul li:hover{opacity:.8;margin-left:12px;}
