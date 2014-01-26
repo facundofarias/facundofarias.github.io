@@ -39,7 +39,6 @@ ul, ol { margin: 1.5em 0; padding: 0; }
 dd { margin: 0; }
 nav ul, nav ol, .widget ol, .widget ul, .commentlist { list-style: none; list-style-image: none; margin: 0; }
 
-/* Position subscript and superscript content without affecting line-height: gist.github.com/413930 */
 sub, sup { line-height: 0; position: relative; vertical-align: baseline; }
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
@@ -62,7 +61,6 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 /** Tables **/
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */ 
 .clearfix:before, .clearfix:after, nav[role=navigation] .menu ul:before, nav[role=navigation] .menu ul:after { content: ""; display: table; }
 .clearfix:after, nav[role=navigation] .menu ul:after { clear: both; }
 .clearfix, nav[role=navigation] .menu ul { zoom: 1; }
@@ -126,7 +124,6 @@ article.right{padding-left:30px;}
 
 /* 768px width Grid
 ---------------------------------------------------*/
-
 @media only screen and (min-width: 768px) and (max-width: 1019px) {
 	.container, #container                      { width: 768px; }
 	.container .column,
@@ -168,7 +165,6 @@ article.right{padding-left:30px;}
 
 /*  320px width Grid
 ---------------------------------------------------*/
-
 @media only screen and (max-width: 767px) {
 	.container, #container { width: 300px; }
 	.columns, .column { margin: 0; }
@@ -207,7 +203,6 @@ article.right{padding-left:30px;}
 
 /* 480px width Grid
 ---------------------------------------------------*/
-
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.container, #container { width: 420px; }
 	.columns, .column { margin: 0; }
@@ -232,8 +227,6 @@ article.right{padding-left:30px;}
 /* Self Clearing Goodness */
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
-/* Use clearfix class on parent to clear nested columns,
-or wrap each row of columns in a <div class="row"> */
 .clearfix:before,
 .clearfix:after,
 .row:before,
@@ -251,7 +244,6 @@ or wrap each row of columns in a <div class="row"> */
 .clearfix {
   zoom: 1; }
 
-/* You can also use a <br class="clear" /> to clear columns */
 .clear {
   clear: both;
   display: block;
@@ -263,7 +255,6 @@ or wrap each row of columns in a <div class="row"> */
 
 /* General styles
 ---------------------------------------------------*/
-
 h1{
 	font-family:'Ubuntu',sans-serif;
 	font-weight:700;
@@ -299,7 +290,6 @@ h1 span{
 
 /* Programming section
 ---------------------------------------------------*/
-
 #programming ul{
 	margin:0 0 20px;
 	padding: 0px 5px 0px 10px;
@@ -337,7 +327,6 @@ h1 span{
 
 /* Languages section
 ---------------------------------------------------*/
-
 #languages ul{
 	margin:0 0 40px;
 	padding: 0px 5px;
@@ -370,7 +359,6 @@ h1 span{
 	-o-transition: opacity .3s;
 	-ms-transition: opacity .3s;
 	transition: opacity .3s;
-
 }
 
 #languages li div:after{
@@ -404,7 +392,6 @@ h1 span{
 
 /* Portfolio
 ---------------------------------------------------*/
-
 #portfolio a{display:block;}
 
 #portfolio p{
@@ -418,7 +405,6 @@ h1 span{
 
 /* Historic sections
 ---------------------------------------------------*/
-
 #history{page-break-before:always}
 
 #history li{
@@ -456,7 +442,6 @@ h1 span{
 	
 /* About section
 ---------------------------------------------------*/
-
 .info{
     font-size: 1em;
     font-family: 'Ubuntu Condensed';
@@ -518,10 +503,7 @@ h1 span{
 
 /* Contact info and personal data
 ---------------------------------------------------*/
-
 #personaldata ul{margin:0;}
-/*#contact ul{margin:50px 0 20px 20px}*/
-
 #personaldata ul li .info,
 #contact ul li{
 	list-style:none;
@@ -550,7 +532,6 @@ h1 span{
 #personaldata .location .info{background-position:10px -227px;}
 #personaldata .phone .info{background-position:10px -342px;}
 
-/*#personaldata ul li .info:hover,*/
 #contact ul li:hover{opacity:.8;margin-left:12px;}
 
 .no-csstransitions #personaldata ul li .info:hover,
@@ -591,11 +572,8 @@ h1 span{
 	display:none;
 }
 
-
-/* Handeling additional screen size stuff
+/* Handleling additional screen size stuff
 ---------------------------------------------------*/
-
-
 @media only screen and (min-width: 768px) and (max-width: 1019px) {
 	#history li .year{width:45%;}
 	#history li > span{width:55%;}
@@ -624,6 +602,7 @@ h1 span{
     }
 }
 
+/* Fonts ---------------------------------------------------*/
 @font-face {
     font-family: 'Mate SC';
     font-style: normal;
